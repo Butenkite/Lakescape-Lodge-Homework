@@ -1,0 +1,123 @@
+﻿/*
+	Design for Lakeside website
+
+	Author: Nicolaus Butenko
+	Date: 7/31/2024
+	Filename: lake_styles.css
+
+*/
+
+body {
+  font-family: sans-serif;
+}
+
+a:link {
+  color: #ddd8c4;
+  text-decoration: none;
+}
+
+aside a:link {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: blanchedalmond;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: #7ba8c0;
+}
+
+header nav {
+  padding: 10px 0px;
+  background-color: #183642;
+}
+
+section {
+  height: 1025px;
+}
+
+h1 {
+  padding: 0px 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+
+#leftcol {
+  background-color: #ddd8c4;
+}
+
+section img {
+  padding-left: 20px;
+}
+
+section p {
+  padding-left: 30px;
+}
+
+h2 {
+  font-family: serif;
+  padding-left: 20px;
+}
+
+h3 {
+  padding-left: 20px;
+  font-family: serif;
+}
+
+#rightcol {
+  background-color: #6d4c3d;
+  color: #ddd8c4;
+}
+
+#rightcol ul {
+  list-style-type: none;
+  padding-left: 80px;
+}
+
+#rightcol h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  padding-left: 40px;
+  margin-top: 20px;
+}
+
+#rightcol li:first-child {
+  font-weight: bold;
+}
+
+blockquote {
+  padding-top: 15px;
+}
+
+body {
+  background-color: #7ba8c0;
+}
+
+aside {
+  border: solid black 1px;
+  border-radius: 15px;
+}
+
+#leftcol #notes {
+  margin-left: 30px;
+  background-color: #00a676;
+}
+
+#leftcol #events {
+  background-color: #7d8cc4;
+}
+
+/* Looked up how to center elements, found text-align on W3schools */
+
+footer {
+  padding: 15px;
+  text-align: center;
+  color: #ddd8c4;
+  background-color: #183642;
+}
